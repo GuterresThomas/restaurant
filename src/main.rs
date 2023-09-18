@@ -1,7 +1,14 @@
-use std::collections::HashMap;
+use std::fmt;
+use std::io;
 
 fn main () {
-    let mut map = HashMap::new();
-    map.insert(1, 2);
-    
+
+}
+
+fn function1() -> fmt::Result {
+    Ok(()) 
+}
+
+fn function2()-> io::Result<()>{
+    Ok(())
 }
