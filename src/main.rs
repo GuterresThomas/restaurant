@@ -12,3 +12,4 @@ fn function1() -> fmt::Result {
 fn function2()-> io::Result<()>{
     Ok(())
 }
+
